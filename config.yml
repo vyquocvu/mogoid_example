@@ -1,0 +1,16 @@
+development:
+  clients:
+    default:
+      database: new_dev
+      hosts:
+       - localhost:27017
+  options:
+    raise_not_found_error: false
+production:
+  clients:
+    default:
+      database: new_pro
+      hosts:
+       - localhost:27017
+  options:
+    raise_not_found_error: false
